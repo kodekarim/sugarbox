@@ -19,23 +19,6 @@ extension ViewFromNib {
     static var nib: UINib {
         return UINib(nibName: self.nibName, bundle: nil)
     }
-//    
-//    static func view() -> Self? {
-//        let objects = self.nib.instantiate(withOwner: nil, options: nil)self.sections[indexPath.section].type
-//        return objects.first as? Self
-//    }
-//    
-//    static func viewController<T: UIViewController>() -> T? {
-//        return T(nibName: nibName, bundle: nil)
-//    }
-//    
-//    static func registerCellForCollectionView(_ collectionView: UICollectionView) {
-//        collectionView.register(nib, forCellWithReuseIdentifier: nibName)
-//    }
-//    
-//    static func cell<T: UICollectionViewCell>(collectionView: UICollectionView, forItemAt indexPath: IndexPath) -> T {
-//        return collectionView.dequeueReusableCell(withReuseIdentifier: nibName, for: indexPath) as! T
-//    }
 }
 
 extension Bundle {
